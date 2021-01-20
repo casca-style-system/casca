@@ -1,0 +1,31 @@
+{
+  "name": "casca",
+  "private": true,
+  "version": "0.0.0",
+  "repository": "git@github.com:casca-style-system/casca.git",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=12.x"
+  },
+  "workspaces": {
+    "packages": [
+      "examples/*",
+      "config/*",
+      "lib/*"
+    ],
+    "nohoist": []
+  },
+  "scripts": {
+    "compile": "lerna run compile --stream --prefix --npm-client yarn",
+    "clean": "lerna run clean && lerna clean --yes && rimraf node_modules",
+    "test": "cross-env BABEL_ENV=test jest",
+    "casca": "casca"
+  },
+  "resolutions": {},
+  "devDependencies": {
+    "@casca/cli": "^0.0.1",
+    "@casca/ts-config": "^0.0.1",
+    "lerna": "^3.22.1",
+    "typescript": "^4.1.3"
+  }
+}

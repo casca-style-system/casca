@@ -1,0 +1,8 @@
+{
+  "extends": "@casca/ts-config/workspace.json",
+  "compilerOptions": {
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

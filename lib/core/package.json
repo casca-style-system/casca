@@ -1,0 +1,24 @@
+{
+  "name": "@casca/core",
+  "description": "Casca framework-agonostic API",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/casca-style-system/casca.git",
+    "directory": "lib/core"
+  },
+  "bugs": "https://github.com/casca-style-system/casca/issues",
+  "keywords": [
+    "casca",
+    "casca-design-system",
+    "core"
+  ],
+  "main": "build/build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "files": ["build/src"],
+  "scripts": {
+    "compile": "tsc"
+  },
+  "dependencies": { }
+}

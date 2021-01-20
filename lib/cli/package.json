@@ -1,0 +1,33 @@
+{
+  "name": "@casca/cli",
+  "description": "Task automation for working with the Casca Style System",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "bin": {
+    "casca": "./bin/casca"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/casca-style-system/casca.git",
+    "directory": "lib/cli"
+  },
+  "bugs": "https://github.com/casca-style-system/casca/issues",
+  "keywords": [
+    "casca",
+    "casca-design-system",
+    "design-system",
+    "foudation",
+    "components",
+    "resources"
+  ],
+  "scripts": {
+    "compile": "tsc"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/yargs": "^15.0.12"
+  }
+}
