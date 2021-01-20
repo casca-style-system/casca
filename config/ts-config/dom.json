@@ -1,0 +1,9 @@
+{
+  "extends": "./base.json",
+  "compilerOptions": {},
+  "files": [
+    "./definitions/images.d.ts",
+    "./definitions/styles.d.ts",
+    "./definitions/json.d.ts"
+  ]
+}
