@@ -2,14 +2,6 @@
 /build
 lib/*/build/
 lib/*/examples/*/build/
-es
-lib
-dist
-umd
-css
-
-# Config files
-.npmrc
 
 # Cache folders
 .cache
