@@ -1,0 +1,11 @@
+{
+  "extends": "./base.json",
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "es2018"]
+  },
+  "files": [
+    "./definitions/images.d.ts",
+    "./definitions/styles.d.ts",
+    "./definitions/json.d.ts"
+  ]
+}

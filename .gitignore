@@ -1,42 +1,14 @@
-# Build folders
-/build
-lib/*/build/
-lib/*/examples/*/build/
-es
-lib
-dist
-umd
-css
-
-# Config files
-.npmrc
-
-# Cache folders
-.cache
-
-# Logs
-logs
-*.log
-
-# Runtime data
-pids
-*.pid
-*.seed
-
-# Certificates
-*.crt
-*.pem
-
-# Editor
-.DS_Store
-*.swp
-.idea
-.vscode
-
-# Coverage directory used by tools like istanbul, also includes default junit
-# output file
-coverage
-/junit.xml
-
-# Dependency directory
 node_modules
+.idea
+/.vscode
+dist
+build
+/coverage
+test
+.DS_Store
+tmp
+*.log
+.ng_pkg_build
+jest.debug.config.js
+.tool-versions
+/.verdaccio/build/local-registry
